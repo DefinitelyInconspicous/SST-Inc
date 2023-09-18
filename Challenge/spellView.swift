@@ -53,6 +53,8 @@ struct spellView: View {
         .navigationTitle("Spell Editor")
     }
 }
+
+
 struct spellView_Previews: PreviewProvider {
     static var previews: some View {
         spellView( name: .constant(""), level: .constant(0), who: .constant(""), what: .constant(""), good: .constant(false))
